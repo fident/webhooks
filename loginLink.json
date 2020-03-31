@@ -1,0 +1,15 @@
+{
+  "name": "loginLink",
+  "type": "object",
+  "description": "A login link for a users account",
+  "properties": {
+    "identity": {
+      "type": "string",
+      "description": "ID for the identity requesting a login link"
+    },
+    "loginLink": {
+      "type": "string",
+      "description": "Link for the user to click to login to their account (Single Use)"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "verifyAccount",
+  "type": "object",
+  "description": "A link for a user to verify their account",
+  "properties": {
+    "identity": {
+      "type": "string",
+      "description": "ID for the identity requesting a login link"
+    },
+    "verifyLink": {
+      "type": "string",
+      "description": "Link for the user to click to verify their account (Single Use)"
+    },
+    "firstName": {
+      "type": "string",
+      "description": "Users first name"
+    },
+    "lastName": {
+      "type": "string",
+      "description": "Users last name"
+    },
+    "emailAddress": {
+      "type": "string",
+      "description": "Users email address"
+    }
+  }
+}

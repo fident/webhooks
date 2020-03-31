@@ -1,0 +1,44 @@
+{
+  "name": "Webhook",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string",
+      "description": "UUID for the notification"
+    },
+    "type": {
+      "type": "string",
+      "description": "Notification type",
+      "enum": [
+        "loginLink",
+        "resetPasswordLink",
+        "verifySetPasswordLink",
+        "verifyAccount"
+      ]
+    },
+    "data": {
+      "type": "object",
+      "description": "Data relating to the notification type"
+    },
+    "checksum": {
+      "type": "string",
+      "description": "sha1 checksum of the payload"
+    },
+    "verification": {
+      "type": "string",
+      "description": "sha1 of the checksum + verificationKey"
+    },
+    "created": {
+      "type": "number",
+      "description": "Timestamp of when the webhook was created, measured in seconds since the Unix epoch"
+    },
+    "webhookVersion": {
+      "type": "string",
+      "description": "The version of webhook notifications used to render this information"
+    },
+    "projectId": {
+      "type": "string",
+      "description": "The ID of the project this webhook originated from"
+    }
+  }
+}
