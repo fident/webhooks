@@ -1,7 +1,7 @@
 {
-    "name": "passwordUpdate",
+    "name": "profileUpdate",
     "type": "object",
-    "description": "A notification indicating that the password for an identity has been updated",
+    "description": "A notification indicating that the profile for an identity has been updated",
     "properties": {
         "identity": {
             "type": "string",

@@ -13,7 +13,10 @@
         "loginLink",
         "resetPasswordLink",
         "verifySetPasswordLink",
-        "verifyAccount"
+        "verifyAccount",
+        "profileUpdate",
+        "passwordUpdate",
+        "emailUpdate"
       ]
     },
     "data": {
