@@ -1,0 +1,27 @@
+{
+    "name": "passwordUpdate",
+    "type": "object",
+    "description": "A notification indicating that the password for an identity has been updated",
+    "properties": {
+        "identity": {
+            "type": "string",
+            "description": "ID for the identity of this action"
+        },
+        "ipAddress": {
+            "type": "string",
+            "description": "IP address of where the request for this action originated"
+        },
+        "useragent": {
+            "type": "string",
+            "description": "Useragent from where the request for this action originated"
+        },
+        "firstName": {
+            "type": "string",
+            "description": "The updated first name for the identity"
+        },
+        "lastName": {
+            "type": "string",
+            "description": "The updated last name for the identity"
+        }
+    }
+}
