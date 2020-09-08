@@ -13,6 +13,7 @@
         "loginLink",
         "resetPasswordLink",
         "verifySetPasswordLink",
+        "changeEmailLink",
         "verifyAccount",
         "profileUpdate",
         "passwordUpdate",

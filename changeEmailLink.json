@@ -1,0 +1,27 @@
+{
+    "name": "changeEmailLink",
+    "type": "object",
+    "description": "A link to update the address on the users account",
+    "properties": {
+      "identity": {
+        "type": "string",
+        "description": "ID for the identity of this action"
+      },
+      "ipAddress": {
+        "type": "string",
+        "description": "IP address of where the request for this action originated"
+      },
+      "useragent": {
+        "type": "string",
+        "description": "Useragent from where the request for this action originated"
+      },
+      "emailAddress": {
+        "type": "string",
+        "description": "The accounts updated address and recipient of the change link"
+      },
+      "changeEmailLink": {
+        "type": "string",
+        "description": "The link that once clicked will confirm the accounts new address"
+      }
+    }
+  }
