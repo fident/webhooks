@@ -11,9 +11,9 @@
             "type": "string",
             "description": "IP address of where the request for this action originated"
         },
-        "useragent": {
+        "userAgent": {
             "type": "string",
-            "description": "Useragent from where the request for this action originated"
+            "description": "User-agent from where the request for this action originated"
         },
         "emailAddress": {
             "type": "string",
